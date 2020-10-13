@@ -6,7 +6,7 @@ import services.CrudService;
 
 import java.util.Set;
 
-public class VerServiceMap  extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
   @Override
   public Set<Vet> findAll() {
     return super.findAll();
